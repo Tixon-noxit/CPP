@@ -1,0 +1,207 @@
+\doxysection{s21\+::Snake\+Model Class Reference}
+\hypertarget{classs21_1_1_snake_model}{}\label{classs21_1_1_snake_model}\index{s21::SnakeModel@{s21::SnakeModel}}
+
+
+{\ttfamily \#include $<$Model.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{classs21_1_1_snake_model_ab6b568ef7ea795520d2dfac896ac0dde}{Check\+Apple\+Collision}} (const std\+::pair$<$ int, int $>$ \&new\+\_\+head\+\_\+position)
+\begin{DoxyCompactList}\small\item\em Проверка столкновения с яблоком \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classs21_1_1_snake_model_a6bece4ce0aead4446b531eee68c0955b}{Snake\+Model}} ()
+\item 
+void \mbox{\hyperlink{classs21_1_1_snake_model_a164f8994cc003afff8b6260bef29f66e}{Initialize\+Game}} ()
+\begin{DoxyCompactList}\small\item\em Инициализация начального состояния змейки, яблока и других игровых данных \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classs21_1_1_snake_model_a6510568965e3854b15707a477cff77b8}{Update\+State}} ()
+\begin{DoxyCompactList}\small\item\em Обновление состояния игры \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classs21_1_1_snake_model_a23f055d834634a28b4167981f316b38a}{Change\+Direction}} (User\+Action\+\_\+t action)
+\begin{DoxyCompactList}\small\item\em Изменение направления в зависимости от текущего направления \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classs21_1_1_snake_model_a374001dbd118fb803cd15fa711714f6a}{Set\+Pause}} ()
+\begin{DoxyCompactList}\small\item\em Устанавливает паузу в игре \end{DoxyCompactList}\item 
+std\+::deque$<$ std\+::pair$<$ int, int $>$ $>$ \mbox{\hyperlink{classs21_1_1_snake_model_ac24af343740959cb538e5437612eda8f}{Get\+Snake\+Body}} ()
+\item 
+int \mbox{\hyperlink{classs21_1_1_snake_model_aab51308a041497a054c98546964aca88}{Get\+AppleX}} ()
+\item 
+int \mbox{\hyperlink{classs21_1_1_snake_model_a41de37da36d4679fec2e86bc55ee44a1}{Get\+AppleY}} ()
+\item 
+int \mbox{\hyperlink{classs21_1_1_snake_model_a4e68b439144353257c822fadc6fc3b36}{Get\+Speed\+Game}} ()
+\item 
+int \mbox{\hyperlink{classs21_1_1_snake_model_a7416ba448a77405707bcd5924a1d8a46}{Get\+Pause}} ()
+\item 
+int \mbox{\hyperlink{classs21_1_1_snake_model_afd01b9bb6ed304e89ed44183f43eb0c0}{Get\+Score}} ()
+\item 
+int \mbox{\hyperlink{classs21_1_1_snake_model_a6c24991c647881d99eecabef05466ba8}{Get\+Speed}} ()
+\item 
+int \mbox{\hyperlink{classs21_1_1_snake_model_a7229913c12d109457ee2f8b9d0196f6e}{Get\+High\+Score}} ()
+\item 
+int \mbox{\hyperlink{classs21_1_1_snake_model_a6f8a636f841d7ec27c695240b8863695}{Get\+Level}} ()
+\item 
+Tet\+Field \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classs21_1_1_snake_model_ad0406d8c924b1fc2091f5a8ac908563d}{Get\+Game\+Field}} ()
+\item 
+void \mbox{\hyperlink{classs21_1_1_snake_model_a47c7e673f421aee150b5d3f758a990ba}{Get\+Save\+Score}} ()
+\item 
+void \mbox{\hyperlink{classs21_1_1_snake_model_a4201d2e3bbf3521f2d9605f4f5d6eca0}{Add\+New\+Head}} (const std\+::pair$<$ int, int $>$ \&new\+\_\+head\+\_\+position)
+\begin{DoxyCompactList}\small\item\em Установка нового значения для головы змейки при соблюдении условий игры \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classs21_1_1_snake_model_a6bece4ce0aead4446b531eee68c0955b}\index{s21::SnakeModel@{s21::SnakeModel}!SnakeModel@{SnakeModel}}
+\index{SnakeModel@{SnakeModel}!s21::SnakeModel@{s21::SnakeModel}}
+\doxysubsubsection{\texorpdfstring{SnakeModel()}{SnakeModel()}}
+{\footnotesize\ttfamily \label{classs21_1_1_snake_model_a6bece4ce0aead4446b531eee68c0955b} 
+Snake\+Model\+::\+Snake\+Model (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classs21_1_1_snake_model_a4201d2e3bbf3521f2d9605f4f5d6eca0}\index{s21::SnakeModel@{s21::SnakeModel}!AddNewHead@{AddNewHead}}
+\index{AddNewHead@{AddNewHead}!s21::SnakeModel@{s21::SnakeModel}}
+\doxysubsubsection{\texorpdfstring{AddNewHead()}{AddNewHead()}}
+{\footnotesize\ttfamily \label{classs21_1_1_snake_model_a4201d2e3bbf3521f2d9605f4f5d6eca0} 
+void Snake\+Model\+::\+Add\+New\+Head (\begin{DoxyParamCaption}\item[{const std\+::pair$<$ int, int $>$ \&}]{new\+\_\+head\+\_\+position}{}\end{DoxyParamCaption})}
+
+
+
+Установка нового значения для головы змейки при соблюдении условий игры 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+\_\+head\+\_\+position} & \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classs21_1_1_snake_model_a23f055d834634a28b4167981f316b38a}\index{s21::SnakeModel@{s21::SnakeModel}!ChangeDirection@{ChangeDirection}}
+\index{ChangeDirection@{ChangeDirection}!s21::SnakeModel@{s21::SnakeModel}}
+\doxysubsubsection{\texorpdfstring{ChangeDirection()}{ChangeDirection()}}
+{\footnotesize\ttfamily \label{classs21_1_1_snake_model_a23f055d834634a28b4167981f316b38a} 
+void Snake\+Model\+::\+Change\+Direction (\begin{DoxyParamCaption}\item[{User\+Action\+\_\+t}]{action}{}\end{DoxyParamCaption})}
+
+
+
+Изменение направления в зависимости от текущего направления 
+
+
+\begin{DoxyParams}{Parameters}
+{\em action} & -\/ направление выбранное пользователем \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classs21_1_1_snake_model_ab6b568ef7ea795520d2dfac896ac0dde}\index{s21::SnakeModel@{s21::SnakeModel}!CheckAppleCollision@{CheckAppleCollision}}
+\index{CheckAppleCollision@{CheckAppleCollision}!s21::SnakeModel@{s21::SnakeModel}}
+\doxysubsubsection{\texorpdfstring{CheckAppleCollision()}{CheckAppleCollision()}}
+{\footnotesize\ttfamily \label{classs21_1_1_snake_model_ab6b568ef7ea795520d2dfac896ac0dde} 
+bool Snake\+Model\+::\+Check\+Apple\+Collision (\begin{DoxyParamCaption}\item[{const std\+::pair$<$ int, int $>$ \&}]{new\+\_\+head\+\_\+position}{}\end{DoxyParamCaption})}
+
+
+
+Проверка столкновения с яблоком 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+\_\+head\+\_\+position} & -\/ Позиция головы змейки после съедания яблока \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\Hypertarget{classs21_1_1_snake_model_aab51308a041497a054c98546964aca88}\index{s21::SnakeModel@{s21::SnakeModel}!GetAppleX@{GetAppleX}}
+\index{GetAppleX@{GetAppleX}!s21::SnakeModel@{s21::SnakeModel}}
+\doxysubsubsection{\texorpdfstring{GetAppleX()}{GetAppleX()}}
+{\footnotesize\ttfamily \label{classs21_1_1_snake_model_aab51308a041497a054c98546964aca88} 
+int s21\+::\+Snake\+Model\+::\+Get\+AppleX (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classs21_1_1_snake_model_a41de37da36d4679fec2e86bc55ee44a1}\index{s21::SnakeModel@{s21::SnakeModel}!GetAppleY@{GetAppleY}}
+\index{GetAppleY@{GetAppleY}!s21::SnakeModel@{s21::SnakeModel}}
+\doxysubsubsection{\texorpdfstring{GetAppleY()}{GetAppleY()}}
+{\footnotesize\ttfamily \label{classs21_1_1_snake_model_a41de37da36d4679fec2e86bc55ee44a1} 
+int s21\+::\+Snake\+Model\+::\+Get\+AppleY (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classs21_1_1_snake_model_ad0406d8c924b1fc2091f5a8ac908563d}\index{s21::SnakeModel@{s21::SnakeModel}!GetGameField@{GetGameField}}
+\index{GetGameField@{GetGameField}!s21::SnakeModel@{s21::SnakeModel}}
+\doxysubsubsection{\texorpdfstring{GetGameField()}{GetGameField()}}
+{\footnotesize\ttfamily \label{classs21_1_1_snake_model_ad0406d8c924b1fc2091f5a8ac908563d} 
+Tet\+Field \texorpdfstring{$\ast$}{*} s21\+::\+Snake\+Model\+::\+Get\+Game\+Field (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classs21_1_1_snake_model_a7229913c12d109457ee2f8b9d0196f6e}\index{s21::SnakeModel@{s21::SnakeModel}!GetHighScore@{GetHighScore}}
+\index{GetHighScore@{GetHighScore}!s21::SnakeModel@{s21::SnakeModel}}
+\doxysubsubsection{\texorpdfstring{GetHighScore()}{GetHighScore()}}
+{\footnotesize\ttfamily \label{classs21_1_1_snake_model_a7229913c12d109457ee2f8b9d0196f6e} 
+int s21\+::\+Snake\+Model\+::\+Get\+High\+Score (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classs21_1_1_snake_model_a6f8a636f841d7ec27c695240b8863695}\index{s21::SnakeModel@{s21::SnakeModel}!GetLevel@{GetLevel}}
+\index{GetLevel@{GetLevel}!s21::SnakeModel@{s21::SnakeModel}}
+\doxysubsubsection{\texorpdfstring{GetLevel()}{GetLevel()}}
+{\footnotesize\ttfamily \label{classs21_1_1_snake_model_a6f8a636f841d7ec27c695240b8863695} 
+int s21\+::\+Snake\+Model\+::\+Get\+Level (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classs21_1_1_snake_model_a7416ba448a77405707bcd5924a1d8a46}\index{s21::SnakeModel@{s21::SnakeModel}!GetPause@{GetPause}}
+\index{GetPause@{GetPause}!s21::SnakeModel@{s21::SnakeModel}}
+\doxysubsubsection{\texorpdfstring{GetPause()}{GetPause()}}
+{\footnotesize\ttfamily \label{classs21_1_1_snake_model_a7416ba448a77405707bcd5924a1d8a46} 
+int s21\+::\+Snake\+Model\+::\+Get\+Pause (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classs21_1_1_snake_model_a47c7e673f421aee150b5d3f758a990ba}\index{s21::SnakeModel@{s21::SnakeModel}!GetSaveScore@{GetSaveScore}}
+\index{GetSaveScore@{GetSaveScore}!s21::SnakeModel@{s21::SnakeModel}}
+\doxysubsubsection{\texorpdfstring{GetSaveScore()}{GetSaveScore()}}
+{\footnotesize\ttfamily \label{classs21_1_1_snake_model_a47c7e673f421aee150b5d3f758a990ba} 
+void s21\+::\+Snake\+Model\+::\+Get\+Save\+Score (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classs21_1_1_snake_model_afd01b9bb6ed304e89ed44183f43eb0c0}\index{s21::SnakeModel@{s21::SnakeModel}!GetScore@{GetScore}}
+\index{GetScore@{GetScore}!s21::SnakeModel@{s21::SnakeModel}}
+\doxysubsubsection{\texorpdfstring{GetScore()}{GetScore()}}
+{\footnotesize\ttfamily \label{classs21_1_1_snake_model_afd01b9bb6ed304e89ed44183f43eb0c0} 
+int s21\+::\+Snake\+Model\+::\+Get\+Score (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classs21_1_1_snake_model_ac24af343740959cb538e5437612eda8f}\index{s21::SnakeModel@{s21::SnakeModel}!GetSnakeBody@{GetSnakeBody}}
+\index{GetSnakeBody@{GetSnakeBody}!s21::SnakeModel@{s21::SnakeModel}}
+\doxysubsubsection{\texorpdfstring{GetSnakeBody()}{GetSnakeBody()}}
+{\footnotesize\ttfamily \label{classs21_1_1_snake_model_ac24af343740959cb538e5437612eda8f} 
+std\+::deque$<$ std\+::pair$<$ int, int $>$ $>$ s21\+::\+Snake\+Model\+::\+Get\+Snake\+Body (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classs21_1_1_snake_model_a6c24991c647881d99eecabef05466ba8}\index{s21::SnakeModel@{s21::SnakeModel}!GetSpeed@{GetSpeed}}
+\index{GetSpeed@{GetSpeed}!s21::SnakeModel@{s21::SnakeModel}}
+\doxysubsubsection{\texorpdfstring{GetSpeed()}{GetSpeed()}}
+{\footnotesize\ttfamily \label{classs21_1_1_snake_model_a6c24991c647881d99eecabef05466ba8} 
+int s21\+::\+Snake\+Model\+::\+Get\+Speed (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classs21_1_1_snake_model_a4e68b439144353257c822fadc6fc3b36}\index{s21::SnakeModel@{s21::SnakeModel}!GetSpeedGame@{GetSpeedGame}}
+\index{GetSpeedGame@{GetSpeedGame}!s21::SnakeModel@{s21::SnakeModel}}
+\doxysubsubsection{\texorpdfstring{GetSpeedGame()}{GetSpeedGame()}}
+{\footnotesize\ttfamily \label{classs21_1_1_snake_model_a4e68b439144353257c822fadc6fc3b36} 
+int s21\+::\+Snake\+Model\+::\+Get\+Speed\+Game (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classs21_1_1_snake_model_a164f8994cc003afff8b6260bef29f66e}\index{s21::SnakeModel@{s21::SnakeModel}!InitializeGame@{InitializeGame}}
+\index{InitializeGame@{InitializeGame}!s21::SnakeModel@{s21::SnakeModel}}
+\doxysubsubsection{\texorpdfstring{InitializeGame()}{InitializeGame()}}
+{\footnotesize\ttfamily \label{classs21_1_1_snake_model_a164f8994cc003afff8b6260bef29f66e} 
+void Snake\+Model\+::\+Initialize\+Game (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Инициализация начального состояния змейки, яблока и других игровых данных 
+
+\Hypertarget{classs21_1_1_snake_model_a374001dbd118fb803cd15fa711714f6a}\index{s21::SnakeModel@{s21::SnakeModel}!SetPause@{SetPause}}
+\index{SetPause@{SetPause}!s21::SnakeModel@{s21::SnakeModel}}
+\doxysubsubsection{\texorpdfstring{SetPause()}{SetPause()}}
+{\footnotesize\ttfamily \label{classs21_1_1_snake_model_a374001dbd118fb803cd15fa711714f6a} 
+void Snake\+Model\+::\+Set\+Pause (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Устанавливает паузу в игре 
+
+\Hypertarget{classs21_1_1_snake_model_a6510568965e3854b15707a477cff77b8}\index{s21::SnakeModel@{s21::SnakeModel}!UpdateState@{UpdateState}}
+\index{UpdateState@{UpdateState}!s21::SnakeModel@{s21::SnakeModel}}
+\doxysubsubsection{\texorpdfstring{UpdateState()}{UpdateState()}}
+{\footnotesize\ttfamily \label{classs21_1_1_snake_model_a6510568965e3854b15707a477cff77b8} 
+void Snake\+Model\+::\+Update\+State (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})}
+
+
+
+Обновление состояния игры 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+inc/\mbox{\hyperlink{_model_8h}{Model.\+h}}\item 
+src/\mbox{\hyperlink{_model_8cpp}{Model.\+cpp}}\end{DoxyCompactItemize}

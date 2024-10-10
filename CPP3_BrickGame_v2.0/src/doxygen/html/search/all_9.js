@@ -1,0 +1,5 @@
+var searchData=
+[
+  ['main_0',['main',['../tetris_8c.html#a840291bc02cba5474a4cb46a9b9566fe',1,'tetris.c']]],
+  ['max_5fscore_1',['max_score',['../struct_game_info__t.html#a1f7c1747e94a099b4b010c16fbecec28',1,'GameInfo_t']]]
+];
