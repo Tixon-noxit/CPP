@@ -1,4 +1,4 @@
-# [s21_matrix+](https://github.com/Tixon-noxit/CPP/tree/main/CPP1_s21_matrixplus)
+# [matrix+](https://github.com/Tixon-noxit/CPP/tree/main/matrixplus)
 
 ### Описание
 Разработка библиотеки для работы с матрицами на языке C++ с использованием стандартов C++17 и Google Style. Библиотека реализует класс `S21Matrix`, предоставляющий удобные методы для работы с матрицами, а также перегруженные операторы для выполнения различных операций.
@@ -34,7 +34,7 @@
 
 ---
 
-# [s21_containers](https://github.com/Tixon-noxit/CPP/tree/main/CPP2_s21_containers)
+# [containers](https://github.com/Tixon-noxit/CPP/tree/main/containers)
 
 ### Описание
 Разработка библиотеки для реализации контейнеров на языке C++ с использованием стандартов C++17. Библиотека включает основные и дополнительные контейнеры, такие как `list`, `map`, `queue`, `set`, `stack`, `vector`, а также методы для вставки нескольких элементов.
@@ -69,7 +69,7 @@
 
 ---
 
-# [BrickGame Snake](https://github.com/Tixon-noxit/CPP/tree/main/CPP3_BrickGame_v2.0)
+# [BrickGame Snake](https://github.com/Tixon-noxit/CPP/tree/main/BrickGame_v2.0)
 
 ### Описание
 Разработка игры "Snake" в рамках проекта BrickGame v2.0 на C++ с использованием стандарта C++17. Игра состоит из библиотеки для логики игры и графического интерфейса (GUI).
@@ -130,7 +130,7 @@
 
 ---
 
-# [3DViewer v2.0](https://github.com/Tixon-noxit/CPP/tree/main/CPP4_3DViewer_v2.0)
+# [3DViewer v2.0](https://github.com/Tixon-noxit/CPP/tree/main/3DViewer_v2.0)
 
 ### Описание
 Программа для визуализации 3D каркасных моделей на C++17. Поддерживает загрузку моделей из файлов формата OBJ и выполнение аффинных преобразований.
